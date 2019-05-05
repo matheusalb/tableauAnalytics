@@ -29,8 +29,8 @@ class Node
     bool isLeaf();
 
   public:
+  
     Node(string expression, bool truthValue);
-
     vector<Node *> insertSides(string lExpression, bool lTruthValue, string rExpression, bool rTruthValue);
     vector<Node *> insertFront(string expression, bool truthValue);
     vector<Node *> insertFront(string expression1, bool truthValue1, string expression2, bool truthValue2);
